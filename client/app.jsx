@@ -50,7 +50,7 @@ function App() {
     const abortCtrl = new AbortController();
     // set default base url
     axios.defaults.baseURL = config.isDev
-      ? 'https://chapapp11111178.onrender.com/api'
+      ? 'https://imaxchat-ehum.onrender.com/api'
       : '/api';
     handleGetMaster(abortCtrl.signal);
 
