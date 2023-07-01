@@ -95,7 +95,7 @@ function App() {
             <i className="animate-spin">
               <bi.BiLoaderAlt />
             </i>
-            <p>Loading</p>
+            <p>Loading...</p>
           </div>
         </div>
       )}
